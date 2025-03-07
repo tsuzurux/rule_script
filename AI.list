@@ -1,0 +1,63 @@
+# NAME: AI
+# AUTHOR: tsuzurux
+# REPO: https://github.com/tsuzurux/rule_script
+# UPDATED: 2025-03-07
+# DOMAIN: 29
+# DOMAIN-SUFFIX: 20
+# IP-CIDR: 1
+# IP-CIDR6: 1
+# AND: 2
+# TOTAL: 53
+AND,((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com)),US
+AND,((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net)),US
+DOMAIN,chatgpt.livekit.cloud,US
+DOMAIN,host.livekit.cloud,US
+DOMAIN,openai.com.cdn.cloudflare.net,US
+DOMAIN,openaiapi-site.azureedge.net,US
+DOMAIN,openaicomproductionae4b.blob.core.windows.net,US
+DOMAIN,production-openaicom-storage.azureedge.net,US
+DOMAIN,turn.livekit.cloud,US
+DOMAIN-SUFFIX,chat.com,US
+DOMAIN-SUFFIX,chatgpt.com,US
+DOMAIN-SUFFIX,oaistatic.com,US
+DOMAIN-SUFFIX,oaiusercontent.com,US
+DOMAIN-SUFFIX,openai.com,US
+DOMAIN-SUFFIX,sora.com,US
+DOMAIN,api.githubcopilot.com,US
+DOMAIN,copilot-proxy.githubusercontent.com,US
+DOMAIN,copilot.microsoft.com,US
+DOMAIN,sydney.bing.com,US
+DOMAIN,www.bing.com,US
+DOMAIN,ai.google.dev,US
+DOMAIN,aida.googleapis.com,US
+DOMAIN,aistudio.google.com,US
+DOMAIN,alkalicore-pa.clients6.google.com,US
+DOMAIN,alkalimakersuite-pa.clients6.google.com,US
+DOMAIN,bard.google.com,US
+DOMAIN,deepmind.com,US
+DOMAIN,deepmind.google,US
+DOMAIN,geller-pa.googleapis.com,US
+DOMAIN,gemini.google.com,US
+DOMAIN,generativeai.google,US
+DOMAIN,generativelanguage.googleapis.com,US
+DOMAIN,makersuite.google.com,US
+DOMAIN,proactivebackend-pa.googleapis.com,US
+DOMAIN-SUFFIX,anthropic.com,US
+DOMAIN-SUFFIX,claude.ai,US
+DOMAIN-SUFFIX,claudeusercontent.com,US
+IP-CIDR,160.79.104.0/23,US,no-resolve
+IP-CIDR6,2607:6bc0::/48,US,no-resolve
+DOMAIN-SUFFIX,grazie.ai,US
+DOMAIN-SUFFIX,grazie.aws.intellij.net,US
+DOMAIN-SUFFIX,jetbrains.ai,US
+DOMAIN,imagine.meta.com,US
+DOMAIN-SUFFIX,meta.ai,US
+DOMAIN-SUFFIX,pplx.ai,US
+DOMAIN-SUFFIX,perplexity.ai,US
+DOMAIN-SUFFIX,perplexity.com,US
+DOMAIN,chat.mistral.ai,US
+DOMAIN,console.mistral.ai,US
+DOMAIN-SUFFIX,mistral.ai,US
+DOMAIN,api.x.ai,US
+DOMAIN-SUFFIX,x.ai,US
+DOMAIN-SUFFIX,grok.com,US
